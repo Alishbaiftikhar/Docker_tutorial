@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+script:
+  - docker build -t simple-backend .
+  - docker images simple-backend
